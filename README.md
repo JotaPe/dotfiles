@@ -10,4 +10,5 @@ even not destroy your computer, so use is advised.
 
 - neovim
 
-<h6>Dotfiles manager: Chezmoi</h6>
+<h6>Dotfiles manager: Chezmoi</h6><br>
+<h6>This repo is officialy hosted on <a href="https://gitlab.com/jotape/dotfiles">GitLab</a></h6>
