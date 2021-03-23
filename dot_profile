@@ -1,0 +1,4 @@
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+export PATH="$PATH":"$HOME/fvm/versions/1.22.6/bin"
+
+alias ls="ls --color=auto"
