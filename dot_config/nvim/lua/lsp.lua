@@ -70,7 +70,7 @@ local function sumneko_lua_setup()
   local sumneko_binary =
     sumneko_root_path..'bin/'..system_name..'/lua-language-server'
 
-  require('lspconfig').sumneko_lua.setup {
+  lspconfig.sumneko_lua.setup {
     cmd = {sumneko_binary, '-E', sumneko_root_path .. '/main.lua'};
     settings = {
       Lua = {

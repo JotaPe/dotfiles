@@ -49,6 +49,24 @@ return require('packer').startup(function()
     'junegunn/fzf',
     hook = fn['fzf#install'],
   }
+  use {
+    "folke/trouble.nvim",
+    requires = "kyazdani42/nvim-web-devicons",
+  }
+
+  use {"folke/todo-comments.nvim"}
+
+  use {'jelera/vim-javascript-syntax'}
+
+  use {'NikolayFrantsev/jshint2.vim'}
+
+  use {'digitaltoad/vim-pug'}
+
+  use {'mfussenegger/nvim-dap'}
+
+  use {'dart-lang/dart-vim-plugin'}
+
+  use {'thosakwe/vim-flutter'}
 
   use {'edluffy/specs.nvim'}
 

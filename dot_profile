@@ -1,4 +1,6 @@
 export PATH="$PATH":"$HOME/.pub-cache/bin"
-export PATH="$PATH":"$HOME/fvm/versions/1.22.6/bin"
+export PATH="$PATH":"$HOME/fvm/default/bin"
+export EDITOR=nvim
 
 alias ls="ls --color=auto"
+source /usr/share/nvm/init-nvm.sh

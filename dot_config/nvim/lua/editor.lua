@@ -86,5 +86,13 @@ local function set_options()
   set_ui_options()
 end
 
+local function set_keybinds()
+  -- Disabling Ex mode
+  local function set_keymap(...) vim.api.nvim_set_keymap(...) end
+
+  set_keymap('', 'Q', '', {noremap = true})
+end
+
+set_keybinds()
 set_options()
 set_globals()
